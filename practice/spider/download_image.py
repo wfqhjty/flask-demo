@@ -45,11 +45,6 @@ def download_allpicture(url, path):
                 f.close()
 
 
-# 通过requests包下载单张网络图片到本地
-# if __name__ == "__main__":
-#     download_picture("https://pic3.zhimg.com/80/v2-19e9865fdfca0b0a1303ad691abb980c_hd.jpg",
-#                      H:/照片/images/zhihu/request")
-
 # 通过requests包下载多张网络图片到本地
 if __name__ == "__main__":
-    download_allpicture("https://www.zhihu.com/question/298912512", "H:/images/zhihu/request")
+    download_allpicture("https://www.zhihu.com/question/298912512", "./images")

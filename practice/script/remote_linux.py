@@ -3,7 +3,6 @@
 
 import paramiko
 
-
 class LinuxTool:
 
     def __init__(self, ip, username, password):

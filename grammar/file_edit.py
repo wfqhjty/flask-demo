@@ -1,4 +1,5 @@
 import re
+import os
 
 # page_image = re.compile('<img src=\"(.+?)\"')
 # images = re.findall(page_image, "<img src=\"aaaaaa\"bbbbbbbbbbb<img src=\"cccccc\"")
