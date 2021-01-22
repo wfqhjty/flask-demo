@@ -8,3 +8,7 @@ if __name__=='__main__':
     result=test.get_return()
     print(result)
     print (type(result))
+    print(result[0])
+    print(result[1])
+    a,b=test.get_return()
+    print("a:"+str(a)+"b:"+str(b))
